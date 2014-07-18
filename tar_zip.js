@@ -1,5 +1,5 @@
 /**
- * zlib module can only compress individual data file, and we also need to retain the structure of a folder for unzpipping, 
+ * zlib module can only compress individual data file, but zipping folder requires retaining the folder structure for unzpipping, 
  * which nodejs zlib does not provide. 
  * The common solution is 1) tar the folder and then 2) zip the tar file. That's why it is called tar-zip. Run the following
  * command to install tar:
